@@ -1,0 +1,46 @@
+/*배경색*/
+body      {
+          background-color: #ffaa00
+          }
+
+/*제목*/
+.title    {
+          display: block;
+          margin: 0px auto;
+          }
+
+/*설명서*/
+#manual   {
+          font-weight:bold;
+          font-size: 20px;
+          text-align: center;
+          }
+
+/*마킹입력상자*/
+#myText   {
+          position: relative;
+          left: 50%;
+          transform: translate(-60%, -50%);
+          text-align: center;
+          height : 32px ;
+          width:300px;
+          border:solid 6px #231816;
+          font-weight:bold;
+          float:left;
+          }
+
+/*입력칸*/
+#search   {
+          position: relative;
+          left:50%;
+          transform: translate(-290%, -50%);
+          height : 46px ;
+          }
+
+/*검색결과*/
+#marking  {
+          position: relative;
+          font-weight: bold;
+          font-size: 40px;
+          text-align: center;
+          }
