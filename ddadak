@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>따닥</title>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<img class="title" src="file:///C:/Users/emisk/Desktop/%EB%B0%9C%EA%B5%AC%EC%A7%80/%EB%94%B0%EB%8B%A5%EB%A1%9C%EA%B3%A0.png">
+<div id = "manual">1. 대소문자를 구분합니다.<p>2. 띄어쓰기 하지마세요.</p></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<input type="text"  onkeypress="if(event.keyCode==13){myFunction();}"   id= "myText" placeholder="마킹 입력">
+<input type="image" id="search" src="file:///C:/Users/emisk/Desktop/%EB%B0%9C%EA%B5%AC%EC%A7%80/search%20img.png" onclick="myFunction()" value="">
+<p id="marking"></p>
+
+<script>
+function myFunction()
+  {
+  var x = document.getElementById("myText").value;
+
+  if( x =="DSI50")
+  document.getElementById("marking").innerHTML ="DSI50 <p>자이스 누진 드라이브 세이프 인디비주얼 1.50</p><p>권장 소비자가격 850,000원</p>"
+  if( x =="DSI60")
+  document.getElementById("marking").innerHTML ="DSI60 <p>자이스 누진 드라이브 세이프 인디비주얼 1.60</p><p>권장 소비자가격 950,000원</p>"
+  if( x =="DSI67")
+  document.getElementById("marking").innerHTML ="DSI67 <p>자이스 누진 드라이브 세이프 인디비주얼 1.67</p><p>권장 소비자가격 1,050,000원</p>"
+  if( x =="DSI74")
+  document.getElementById("marking").innerHTML ="DSI74 <p>자이스 누진 드라이브 세이프 인디비주얼 1.74</p><p>권장 소비자가격 1,250,000원</p>"
+  if( x =="I250")
+  document.getElementById("marking").innerHTML ="I250 <p>자이스 누진 인디비주얼 2 1.50</p><p>권장 소비자가격 650,000원</p>"
+  if( x =="I260")
+  document.getElementById("marking").innerHTML ="I260 <p>자이스 누진 인디비주얼 2 1.60</p><p>권장 소비자가격 750,000원</p>"
+  if( x =="I267")
+  document.getElementById("marking").innerHTML ="I267 <p>자이스 누진 인디비주얼 2 1.67</p><p>권장 소비자가격 850,000원</p>"
+  if( x =="I274")
+  document.getElementById("marking").innerHTML ="I274 <p>자이스 누진 인디비주얼 2 1.74</p><p>권장 소비자가격 1,050,000원</p>"
+  if( x =="PS50")
+  document.getElementById("marking").innerHTML ="PS50 <p>자이스 누진 P.수퍼브 1.50</p><p>권장 소비자가격 750,000원</p>"
+  if( x =="PS60")
+  document.getElementById("marking").innerHTML ="PS60 <p>자이스 누진 P.수퍼브 1.60</p><p>권장 소비자가격 850,000원</p>"
+  if( x =="PS67")
+  document.getElementById("marking").innerHTML ="PS67 <p>자이스 누진 P.수퍼브 1.67</p><p>권장 소비자가격 950,000원</p>"
+  if( x =="PS74")
+  document.getElementById("marking").innerHTML ="PS74 <p>자이스 누진 P.수퍼브 1.74</p><p>권장 소비자가격 1,150,000원</p>"
+  }
+</script>
+</body>
+</html>
